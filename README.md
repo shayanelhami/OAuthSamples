@@ -20,6 +20,7 @@ You can find samples to learn about OAuth flow in the following providers:
 - Facebook (OAuth2 but in a peculiar way)
 - Linkedin (OAuth2)
 - Dropbox (OAuth2)
+- Google (OAuth2 and a bit of JWT) 
 
 At the end of the authorization process each provider gives you an access-token. That is enough to
 assume user is Authenticated successfully. Therefore you can use OAuth as a tool to do "Login with Twitter", 
@@ -56,5 +57,5 @@ as "key")
 Roadmap
 -------
 The plan is to add more samples for:
-- Google
-- Microsoft Azure Active Directory 
+- Microsoft Azure Active Directory
+- Paypal (and do more than just login)
